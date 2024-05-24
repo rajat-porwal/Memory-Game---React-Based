@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .header {
+    background-color: #282c34;
+    padding: 20px;
+    color: white;
+  }
+  
+  .scores {
+    display: flex;
+    justify-content: space-around;
+  }
