@@ -55,10 +55,32 @@ const handleCardClick = clickedCard => {
     }
   };
 
-  const handleGameOver = () => {
+const handleGameOver = () => {
     if (score > bestScore) {
       setBestScore(score);
     }
     setScore(0);
     resetCards();
   };
+
+const updateScore = newScore => {
+    setScore(newScore);
+  };
+
+const resetCards = () => {
+    const resetCards = cards.map(card => ({
+      ...card,
+      clicked: false,
+    }));
+    shuffleCards(resetCards);
+  };
+
+  return (
+    <div className="App">
+      <Header score={score} bestScore={bestScore} />
+      <CardGrid cards={cards} onCardClick={handleCardClick} />
+    </div>
+  );
+};
+
+export default App;
