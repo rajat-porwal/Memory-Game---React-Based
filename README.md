@@ -23,6 +23,6 @@ Technologies used in the project:
 
 ## Author
 
-[Rajat Porwal]((https://github.com/rajat-porwal)) - [LinkedIn](https://www.linkedin.com/in/rajatporwal/) - rajatporwal@protonmail.com
+[Rajat Porwal](https://github.com/rajat-porwal) - [LinkedIn](https://www.linkedin.com/in/rajatporwal/) - rajatporwal@protonmail.com
 
 <p align="right">(<a href="#top">back to top</a>)</p>
