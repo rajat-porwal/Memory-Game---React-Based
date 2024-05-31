@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Header from './components/Header';
 import CardGrid from './components/CardGrid';
+import Footer from './components/Footer';
 
 const App = () => {
   const [score, setScore] = useState(0);
@@ -79,6 +80,7 @@ const resetCards = () => {
     <div className="App">
       <Header score={score} bestScore={bestScore} />
       <CardGrid cards={cards} onCardClick={handleCardClick} />
+      <Footer />
     </div>
   );
 };
